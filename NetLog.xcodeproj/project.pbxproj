@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54B300987E1D72CF16331E49 /* Pods_NetLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D31477F7D2AFF4EC13A6EF /* Pods_NetLog.framework */; };
 		8FBBD04325E1354B0093C881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD04225E1354B0093C881 /* AppDelegate.swift */; };
 		8FBBD04525E1354B0093C881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD04425E1354B0093C881 /* SceneDelegate.swift */; };
-		8FBBD04725E1354B0093C881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD04625E1354B0093C881 /* ViewController.swift */; };
-		8FBBD04A25E1354B0093C881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD04825E1354B0093C881 /* Main.storyboard */; };
 		8FBBD04C25E135560093C881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD04B25E135560093C881 /* Assets.xcassets */; };
 		8FBBD04F25E135560093C881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD04D25E135560093C881 /* LaunchScreen.storyboard */; };
 		8FBBD06525E13AFE0093C881 /* ShipmentTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD06425E13AFE0093C881 /* ShipmentTabBar.storyboard */; };
 		8FBBD06925E13C1E0093C881 /* ShipmentTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD06825E13C1E0093C881 /* ShipmentTabBarController.swift */; };
+		8FBBD06F25E13D3C0093C881 /* ShipmentDetailScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD06D25E13D3C0093C881 /* ShipmentDetailScreenViewController.swift */; };
+		8FBBD07025E13D3C0093C881 /* ShipmentDetailScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD06E25E13D3C0093C881 /* ShipmentDetailScreenViewController.xib */; };
 		8FBBD07D25E145FD0093C881 /* EmptyTabScreenOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD07B25E145FD0093C881 /* EmptyTabScreenOneViewController.swift */; };
 		8FBBD07E25E145FD0093C881 /* EmptyTabScreenOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD07C25E145FD0093C881 /* EmptyTabScreenOneViewController.xib */; };
 		8FBBD08425E146120093C881 /* EmptyTabScreenTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD08225E146120093C881 /* EmptyTabScreenTwoViewController.swift */; };
@@ -26,16 +27,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08D31477F7D2AFF4EC13A6EF /* Pods_NetLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBBD03F25E1354B0093C881 /* NetLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBBD04225E1354B0093C881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FBBD04425E1354B0093C881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8FBBD04625E1354B0093C881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8FBBD04925E1354B0093C881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FBBD04B25E135560093C881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FBBD04E25E135560093C881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FBBD05025E135560093C881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FBBD06425E13AFE0093C881 /* ShipmentTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShipmentTabBar.storyboard; sourceTree = "<group>"; };
 		8FBBD06825E13C1E0093C881 /* ShipmentTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentTabBarController.swift; sourceTree = "<group>"; };
+		8FBBD06D25E13D3C0093C881 /* ShipmentDetailScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentDetailScreenViewController.swift; sourceTree = "<group>"; };
+		8FBBD06E25E13D3C0093C881 /* ShipmentDetailScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShipmentDetailScreenViewController.xib; sourceTree = "<group>"; };
 		8FBBD07B25E145FD0093C881 /* EmptyTabScreenOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabScreenOneViewController.swift; sourceTree = "<group>"; };
 		8FBBD07C25E145FD0093C881 /* EmptyTabScreenOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenOneViewController.xib; sourceTree = "<group>"; };
 		8FBBD08225E146120093C881 /* EmptyTabScreenTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabScreenTwoViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				8FBBD04125E1354B0093C881 /* NetLog */,
 				8FBBD04025E1354B0093C881 /* Products */,
 				1C7DAEE611DB226BB746DB39 /* Pods */,
+				51F84C7DF2ACF0387F16FAD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +106,6 @@
 				8FBBD05C25E137C90093C881 /* Presentation */,
 				8FBBD05D25E137DC0093C881 /* Resources */,
 				8FBBD05E25E137E80093C881 /* Screens */,
-				8FBBD04625E1354B0093C881 /* ViewController.swift */,
-				8FBBD04825E1354B0093C881 /* Main.storyboard */,
 				8FBBD04B25E135560093C881 /* Assets.xcassets */,
 				8FBBD04D25E135560093C881 /* LaunchScreen.storyboard */,
 				8FBBD05025E135560093C881 /* Info.plist */,
@@ -163,6 +164,15 @@
 				8FBBD06025E139B70093C881 /* ShipmentTabBarScreen */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		8FBBD05F25E138C00093C881 /* ShipmentDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD06C25E13CF20093C881 /* ViewController */,
+				8FBBD06E25E13D3C0093C881 /* ShipmentDetailScreenViewController.xib */,
+			);
+			path = ShipmentDetailScreen;
 			sourceTree = "<group>";
 		};
 		8FBBD06025E139B70093C881 /* ShipmentTabBarScreen */ = {
@@ -339,7 +349,6 @@
 				8FBBD06525E13AFE0093C881 /* ShipmentTabBar.storyboard in Resources */,
 				8FBBD08F25E1463E0093C881 /* EmptyTabScreenFourViewController.xib in Resources */,
 				8FBBD04C25E135560093C881 /* Assets.xcassets in Resources */,
-				8FBBD04A25E1354B0093C881 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +401,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FBBD04725E1354B0093C881 /* ViewController.swift in Sources */,
 				8FBBD06F25E13D3C0093C881 /* ShipmentDetailScreenViewController.swift in Sources */,
 				8FBBD06925E13C1E0093C881 /* ShipmentTabBarController.swift in Sources */,
 				8FBBD08425E146120093C881 /* EmptyTabScreenTwoViewController.swift in Sources */,
@@ -407,20 +415,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8FBBD04825E1354B0093C881 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FBBD04925E1354B0093C881 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8FBBD04D25E135560093C881 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8FBBD04E25E135560093C881 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8FBBD0A525E15BA50093C881 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBBD0A425E15BA50093C881 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
