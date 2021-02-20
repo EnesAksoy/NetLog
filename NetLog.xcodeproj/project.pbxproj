@@ -28,6 +28,8 @@
 		8FBBD09D25E15B130093C881 /* NetLogLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD09C25E15B130093C881 /* NetLogLabel.swift */; };
 		8FBBD0A325E15BA50093C881 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD0A525E15BA50093C881 /* Localizable.strings */; };
 		8FBBD0AB25E15F610093C881 /* NetLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0AA25E15F610093C881 /* NetLogButton.swift */; };
+		8FBBD0B125E165F10093C881 /* ZoomScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD0B025E165F10093C881 /* ZoomScreenViewController.xib */; };
+		8FBBD0B425E166870093C881 /* ZoomScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0B325E166870093C881 /* ZoomScreenViewController.swift */; };
 		8FBBD0BB25E16E040093C881 /* CameraScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0BA25E16E040093C881 /* CameraScreenViewController.swift */; };
 		8FBBD0BF25E16E0D0093C881 /* CameraScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD0BE25E16E0D0093C881 /* CameraScreenViewController.xib */; };
 		8FBBD0C225E184A80093C881 /* ObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0C125E184A80093C881 /* ObjectStore.swift */; };
@@ -59,6 +61,8 @@
 		8FBBD09C25E15B130093C881 /* NetLogLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLogLabel.swift; sourceTree = "<group>"; };
 		8FBBD0A425E15BA50093C881 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8FBBD0AA25E15F610093C881 /* NetLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLogButton.swift; sourceTree = "<group>"; };
+		8FBBD0B025E165F10093C881 /* ZoomScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZoomScreenViewController.xib; sourceTree = "<group>"; };
+		8FBBD0B325E166870093C881 /* ZoomScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomScreenViewController.swift; sourceTree = "<group>"; };
 		8FBBD0BA25E16E040093C881 /* CameraScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScreenViewController.swift; sourceTree = "<group>"; };
 		8FBBD0BE25E16E0D0093C881 /* CameraScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraScreenViewController.xib; sourceTree = "<group>"; };
 		8FBBD0C125E184A80093C881 /* ObjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectStore.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				8FBBD0B825E16DE20093C881 /* CameraScreen */,
+				8FBBD0AE25E1658E0093C881 /* ZoomScreen */,
 				8FBBD06025E139B70093C881 /* ShipmentTabBarScreen */,
 			);
 			path = Screens;
@@ -322,6 +327,23 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		8FBBD0AE25E1658E0093C881 /* ZoomScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD0AF25E165DE0093C881 /* ViewController */,
+				8FBBD0B025E165F10093C881 /* ZoomScreenViewController.xib */,
+			);
+			path = ZoomScreen;
+			sourceTree = "<group>";
+		};
+		8FBBD0AF25E165DE0093C881 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD0B325E166870093C881 /* ZoomScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		8FBBD0B825E16DE20093C881 /* CameraScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,6 +433,7 @@
 				8FBBD04F25E135560093C881 /* LaunchScreen.storyboard in Resources */,
 				8FBBD08525E146120093C881 /* EmptyTabScreenTwoViewController.xib in Resources */,
 				8FBBD07E25E145FD0093C881 /* EmptyTabScreenOneViewController.xib in Resources */,
+				8FBBD0B125E165F10093C881 /* ZoomScreenViewController.xib in Resources */,
 				8FBBD0BF25E16E0D0093C881 /* CameraScreenViewController.xib in Resources */,
 				8FBBD08A25E146260093C881 /* EmptyTabScreenThreeViewController.xib in Resources */,
 				8FBBD0A325E15BA50093C881 /* Localizable.strings in Resources */,
@@ -477,6 +500,7 @@
 				8FBBD04325E1354B0093C881 /* AppDelegate.swift in Sources */,
 				8FBBD04525E1354B0093C881 /* SceneDelegate.swift in Sources */,
 				8FBBD0CA25E1921E0093C881 /* UIViewExtension.swift in Sources */,
+				8FBBD0B425E166870093C881 /* ZoomScreenViewController.swift in Sources */,
 				8FBBD09A25E152990093C881 /* NetLogTextField.swift in Sources */,
 				8FBBD0BB25E16E040093C881 /* CameraScreenViewController.swift in Sources */,
 				8FBBD0C225E184A80093C881 /* ObjectStore.swift in Sources */,
