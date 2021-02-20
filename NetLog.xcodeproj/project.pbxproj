@@ -24,6 +24,7 @@
 		8FBBD08A25E146260093C881 /* EmptyTabScreenThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD08825E146260093C881 /* EmptyTabScreenThreeViewController.xib */; };
 		8FBBD08E25E1463E0093C881 /* EmptyTabScreenFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD08C25E1463E0093C881 /* EmptyTabScreenFourViewController.swift */; };
 		8FBBD08F25E1463E0093C881 /* EmptyTabScreenFourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD08D25E1463E0093C881 /* EmptyTabScreenFourViewController.xib */; };
+		8FBBD09D25E15B130093C881 /* NetLogLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD09C25E15B130093C881 /* NetLogLabel.swift */; };
 		8FBBD0AB25E15F610093C881 /* NetLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0AA25E15F610093C881 /* NetLogButton.swift */; };
 		8FBBD0C225E184A80093C881 /* ObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0C125E184A80093C881 /* ObjectStore.swift */; };
 		8FBBD0C625E18D4A0093C881 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0C525E18D4A0093C881 /* UIViewControllerExtension.swift */; };
@@ -50,6 +51,7 @@
 		8FBBD08825E146260093C881 /* EmptyTabScreenThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenThreeViewController.xib; sourceTree = "<group>"; };
 		8FBBD08C25E1463E0093C881 /* EmptyTabScreenFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabScreenFourViewController.swift; sourceTree = "<group>"; };
 		8FBBD08D25E1463E0093C881 /* EmptyTabScreenFourViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenFourViewController.xib; sourceTree = "<group>"; };
+		8FBBD09C25E15B130093C881 /* NetLogLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLogLabel.swift; sourceTree = "<group>"; };
 		8FBBD0AA25E15F610093C881 /* NetLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLogButton.swift; sourceTree = "<group>"; };
 		8FBBD0C125E184A80093C881 /* ObjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectStore.swift; sourceTree = "<group>"; };
 		8FBBD0C525E18D4A0093C881 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				8FBBD0AA25E15F610093C881 /* NetLogButton.swift */,
+				8FBBD09C25E15B130093C881 /* NetLogLabel.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				8FBBD0C225E184A80093C881 /* ObjectStore.swift in Sources */,
 				8FBBD0AB25E15F610093C881 /* NetLogButton.swift in Sources */,
 				8FBBD07D25E145FD0093C881 /* EmptyTabScreenOneViewController.swift in Sources */,
+				8FBBD09D25E15B130093C881 /* NetLogLabel.swift in Sources */,
 				8FBBD08925E146260093C881 /* EmptyTabScreenThreeViewController.swift in Sources */,
 				8FBBD08E25E1463E0093C881 /* EmptyTabScreenFourViewController.swift in Sources */,
 			);
