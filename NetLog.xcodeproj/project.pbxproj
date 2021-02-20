@@ -13,6 +13,16 @@
 		8FBBD04A25E1354B0093C881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD04825E1354B0093C881 /* Main.storyboard */; };
 		8FBBD04C25E135560093C881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD04B25E135560093C881 /* Assets.xcassets */; };
 		8FBBD04F25E135560093C881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD04D25E135560093C881 /* LaunchScreen.storyboard */; };
+		8FBBD06525E13AFE0093C881 /* ShipmentTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD06425E13AFE0093C881 /* ShipmentTabBar.storyboard */; };
+		8FBBD06925E13C1E0093C881 /* ShipmentTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD06825E13C1E0093C881 /* ShipmentTabBarController.swift */; };
+		8FBBD07D25E145FD0093C881 /* EmptyTabScreenOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD07B25E145FD0093C881 /* EmptyTabScreenOneViewController.swift */; };
+		8FBBD07E25E145FD0093C881 /* EmptyTabScreenOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD07C25E145FD0093C881 /* EmptyTabScreenOneViewController.xib */; };
+		8FBBD08425E146120093C881 /* EmptyTabScreenTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD08225E146120093C881 /* EmptyTabScreenTwoViewController.swift */; };
+		8FBBD08525E146120093C881 /* EmptyTabScreenTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD08325E146120093C881 /* EmptyTabScreenTwoViewController.xib */; };
+		8FBBD08925E146260093C881 /* EmptyTabScreenThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD08725E146260093C881 /* EmptyTabScreenThreeViewController.swift */; };
+		8FBBD08A25E146260093C881 /* EmptyTabScreenThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD08825E146260093C881 /* EmptyTabScreenThreeViewController.xib */; };
+		8FBBD08E25E1463E0093C881 /* EmptyTabScreenFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD08C25E1463E0093C881 /* EmptyTabScreenFourViewController.swift */; };
+		8FBBD08F25E1463E0093C881 /* EmptyTabScreenFourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD08D25E1463E0093C881 /* EmptyTabScreenFourViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,18 @@
 		8FBBD04B25E135560093C881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FBBD04E25E135560093C881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FBBD05025E135560093C881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBBD06425E13AFE0093C881 /* ShipmentTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShipmentTabBar.storyboard; sourceTree = "<group>"; };
+		8FBBD06825E13C1E0093C881 /* ShipmentTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentTabBarController.swift; sourceTree = "<group>"; };
+		8FBBD07B25E145FD0093C881 /* EmptyTabScreenOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabScreenOneViewController.swift; sourceTree = "<group>"; };
+		8FBBD07C25E145FD0093C881 /* EmptyTabScreenOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenOneViewController.xib; sourceTree = "<group>"; };
+		8FBBD08225E146120093C881 /* EmptyTabScreenTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabScreenTwoViewController.swift; sourceTree = "<group>"; };
+		8FBBD08325E146120093C881 /* EmptyTabScreenTwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenTwoViewController.xib; sourceTree = "<group>"; };
+		8FBBD08725E146260093C881 /* EmptyTabScreenThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabScreenThreeViewController.swift; sourceTree = "<group>"; };
+		8FBBD08825E146260093C881 /* EmptyTabScreenThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenThreeViewController.xib; sourceTree = "<group>"; };
+		8FBBD08C25E1463E0093C881 /* EmptyTabScreenFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabScreenFourViewController.swift; sourceTree = "<group>"; };
+		8FBBD08D25E1463E0093C881 /* EmptyTabScreenFourViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenFourViewController.xib; sourceTree = "<group>"; };
+		B30A518ABA8B027D9EF2C1D2 /* Pods-NetLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetLog.release.xcconfig"; path = "Target Support Files/Pods-NetLog/Pods-NetLog.release.xcconfig"; sourceTree = "<group>"; };
+		D79477EAAAF68D8A7DB83A5D /* Pods-NetLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetLog.debug.xcconfig"; path = "Target Support Files/Pods-NetLog/Pods-NetLog.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B300987E1D72CF16331E49 /* Pods_NetLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C7DAEE611DB226BB746DB39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D79477EAAAF68D8A7DB83A5D /* Pods-NetLog.debug.xcconfig */,
+				B30A518ABA8B027D9EF2C1D2 /* Pods-NetLog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		51F84C7DF2ACF0387F16FAD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08D31477F7D2AFF4EC13A6EF /* Pods_NetLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FBBD03625E1354B0093C881 = {
 			isa = PBXGroup;
 			children = (
 				8FBBD04125E1354B0093C881 /* NetLog */,
 				8FBBD04025E1354B0093C881 /* Products */,
+				1C7DAEE611DB226BB746DB39 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,8 +160,115 @@
 		8FBBD05E25E137E80093C881 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				8FBBD06025E139B70093C881 /* ShipmentTabBarScreen */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		8FBBD06025E139B70093C881 /* ShipmentTabBarScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD06225E13AAD0093C881 /* Screens */,
+				8FBBD06125E13AA50093C881 /* ViewController */,
+				8FBBD06425E13AFE0093C881 /* ShipmentTabBar.storyboard */,
+			);
+			path = ShipmentTabBarScreen;
+			sourceTree = "<group>";
+		};
+		8FBBD06125E13AA50093C881 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD06825E13C1E0093C881 /* ShipmentTabBarController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8FBBD06225E13AAD0093C881 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD07625E145B40093C881 /* EmptyTabScreenFour */,
+				8FBBD07525E145AB0093C881 /* EmptyTabScreenThree */,
+				8FBBD07425E145A50093C881 /* EmptyTabScreenTwo */,
+				8FBBD07325E145990093C881 /* EmptyTabScreenOne */,
+				8FBBD05F25E138C00093C881 /* ShipmentDetailScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8FBBD06C25E13CF20093C881 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD06D25E13D3C0093C881 /* ShipmentDetailScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8FBBD07325E145990093C881 /* EmptyTabScreenOne */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD07A25E145D90093C881 /* ViewController */,
+				8FBBD07C25E145FD0093C881 /* EmptyTabScreenOneViewController.xib */,
+			);
+			path = EmptyTabScreenOne;
+			sourceTree = "<group>";
+		};
+		8FBBD07425E145A50093C881 /* EmptyTabScreenTwo */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD07925E145D40093C881 /* ViewController */,
+				8FBBD08325E146120093C881 /* EmptyTabScreenTwoViewController.xib */,
+			);
+			path = EmptyTabScreenTwo;
+			sourceTree = "<group>";
+		};
+		8FBBD07525E145AB0093C881 /* EmptyTabScreenThree */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD07825E145D00093C881 /* ViewController */,
+				8FBBD08825E146260093C881 /* EmptyTabScreenThreeViewController.xib */,
+			);
+			path = EmptyTabScreenThree;
+			sourceTree = "<group>";
+		};
+		8FBBD07625E145B40093C881 /* EmptyTabScreenFour */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD07725E145C50093C881 /* ViewController */,
+				8FBBD08D25E1463E0093C881 /* EmptyTabScreenFourViewController.xib */,
+			);
+			path = EmptyTabScreenFour;
+			sourceTree = "<group>";
+		};
+		8FBBD07725E145C50093C881 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD08C25E1463E0093C881 /* EmptyTabScreenFourViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8FBBD07825E145D00093C881 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD08725E146260093C881 /* EmptyTabScreenThreeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8FBBD07925E145D40093C881 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD08225E146120093C881 /* EmptyTabScreenTwoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8FBBD07A25E145D90093C881 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD07B25E145FD0093C881 /* EmptyTabScreenOneViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FBBD05325E135560093C881 /* Build configuration list for PBXNativeTarget "NetLog" */;
 			buildPhases = (
+				3BD4CA128FFCC1DF189A2F4E /* [CP] Check Pods Manifest.lock */,
 				8FBBD03B25E1354B0093C881 /* Sources */,
 				8FBBD03C25E1354B0093C881 /* Frameworks */,
 				8FBBD03D25E1354B0093C881 /* Resources */,
+				35391DA13A6211370C640898 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +301,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Enes Aksoy";
 				TargetAttributes = {
 					8FBBD03E25E1354B0093C881 = {
 						CreatedOnToolsVersion = 12.4;
@@ -181,6 +332,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FBBD04F25E135560093C881 /* LaunchScreen.storyboard in Resources */,
+				8FBBD08525E146120093C881 /* EmptyTabScreenTwoViewController.xib in Resources */,
+				8FBBD07E25E145FD0093C881 /* EmptyTabScreenOneViewController.xib in Resources */,
+				8FBBD08A25E146260093C881 /* EmptyTabScreenThreeViewController.xib in Resources */,
+				8FBBD07025E13D3C0093C881 /* ShipmentDetailScreenViewController.xib in Resources */,
+				8FBBD06525E13AFE0093C881 /* ShipmentTabBar.storyboard in Resources */,
+				8FBBD08F25E1463E0093C881 /* EmptyTabScreenFourViewController.xib in Resources */,
 				8FBBD04C25E135560093C881 /* Assets.xcassets in Resources */,
 				8FBBD04A25E1354B0093C881 /* Main.storyboard in Resources */,
 			);
@@ -188,14 +345,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35391DA13A6211370C640898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetLog/Pods-NetLog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetLog/Pods-NetLog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetLog/Pods-NetLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BD4CA128FFCC1DF189A2F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FBBD03B25E1354B0093C881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8FBBD04725E1354B0093C881 /* ViewController.swift in Sources */,
+				8FBBD06F25E13D3C0093C881 /* ShipmentDetailScreenViewController.swift in Sources */,
+				8FBBD06925E13C1E0093C881 /* ShipmentTabBarController.swift in Sources */,
+				8FBBD08425E146120093C881 /* EmptyTabScreenTwoViewController.swift in Sources */,
 				8FBBD04325E1354B0093C881 /* AppDelegate.swift in Sources */,
 				8FBBD04525E1354B0093C881 /* SceneDelegate.swift in Sources */,
+				8FBBD07D25E145FD0093C881 /* EmptyTabScreenOneViewController.swift in Sources */,
+				8FBBD08925E146260093C881 /* EmptyTabScreenThreeViewController.swift in Sources */,
+				8FBBD08E25E1463E0093C881 /* EmptyTabScreenFourViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,11 +544,12 @@
 		};
 		8FBBD05425E135560093C881 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D79477EAAAF68D8A7DB83A5D /* Pods-NetLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72GA34S55G;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NetLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -351,6 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Enes-Aksoy.NetLog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,11 +565,12 @@
 		};
 		8FBBD05525E135560093C881 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30A518ABA8B027D9EF2C1D2 /* Pods-NetLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72GA34S55G;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NetLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,6 +578,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Enes-Aksoy.NetLog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

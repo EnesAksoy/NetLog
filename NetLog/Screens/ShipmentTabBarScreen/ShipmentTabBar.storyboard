@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Lc-z8-EUa">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="SqN-WP-Cx0">
+            <objects>
+                <navigationController id="2Lc-z8-EUa" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="GOe-jN-2vl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AMu-CL-CoE" kind="relationship" relationship="rootViewController" id="jsJ-OJ-1Kk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ubo-QG-oBU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1050" y="44"/>
+        </scene>
+        <!--Netlog-->
+        <scene sceneID="0lS-D6-hLx">
+            <objects>
+                <tabBarController id="AMu-CL-CoE" customClass="ShipmentTabBarController" customModule="NetLog" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Netlog" id="QFN-aO-hir"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1To-w9-qMg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ahf-No-rn9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82" y="44"/>
+        </scene>
+        <!--Tabbar View Controller-->
+        <scene sceneID="tfH-F0-mE6">
+            <objects>
+                <viewController id="d5U-07-QsR" customClass="TabbarViewController" customModule="NetLog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l2M-9o-egW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4BC-rf-JUv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="hJh-N9-32J"/>
+                                    <tabBarItem systemItem="more" id="Xn0-Te-TW2"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KKS-iq-uRS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4BC-rf-JUv" firstAttribute="top" secondItem="KKS-iq-uRS" secondAttribute="top" id="38o-Ti-odY"/>
+                            <constraint firstItem="4BC-rf-JUv" firstAttribute="leading" secondItem="KKS-iq-uRS" secondAttribute="leading" id="T3M-Sg-8DI"/>
+                            <constraint firstItem="4BC-rf-JUv" firstAttribute="trailing" secondItem="KKS-iq-uRS" secondAttribute="trailing" id="wys-FN-dlC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tabbar" destination="4BC-rf-JUv" id="bOU-h5-5gq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BqF-F0-9Qp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1202" y="44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
