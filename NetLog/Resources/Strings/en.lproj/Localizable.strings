@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  NetLog
+
+  Created by ENES AKSOY on 20.02.2021.
+  Copyright © 2021 Enes Aksoy. All rights reserved.
+*/
+
+/* General */
+"AlertButtonTitle" = "OK";
+"AlertTitle" = "Uyarı";
+"MissingDataMessage" = "Bu özellik hakkında detaylı bilgi verilmediği için sayfa tasarımı yapılmadı.";
+
+/* ShipmentDetail */
+
+"shipmentDetail.loadType" = "Yük Tipi";
+"shipmentDetail.numberOfUploads" = "Yükleme Adedi";
+"shipmentDetail.loadingTime" = "Yükleme Saati";
+"shipmentDetail.exitCustoms" = "Çıkış Gümrük";
+"shipmentDetail.loadingType" = "Yükleme Tipi";
+"shipmentDetail.weightOfLoads" = "Yüklerin Kilosu";
+"shipmentDetail.capacity" = "Hacim";
+"shipmentDetail.address" = "Yükleme adresi sınırlarındasın";
+"shipmentDetail.loadingFlow" = "YÜKLEME AKIŞI - 1 / 4";
+"shipmentDetail.loadPoint" = "YÜKLEME NOKTASINA GELDİM";
+
+/* Camera */
+
+"camera.title" = "Yükleme Resmi";
+"camera.description" = "Dorse kapak açık olmasına dikkat edin!";
+"camera.againTake" = "Yeniden çek";
+"camera.send" = "Gönder";
+"camera.add" = "Ekle";
+
+

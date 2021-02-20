@@ -54,6 +54,7 @@
 		8FBBD08D25E1463E0093C881 /* EmptyTabScreenFourViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenFourViewController.xib; sourceTree = "<group>"; };
 		8FBBD09925E152990093C881 /* NetLogTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLogTextField.swift; sourceTree = "<group>"; };
 		8FBBD09C25E15B130093C881 /* NetLogLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLogLabel.swift; sourceTree = "<group>"; };
+		8FBBD0A425E15BA50093C881 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8FBBD0AA25E15F610093C881 /* NetLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLogButton.swift; sourceTree = "<group>"; };
 		8FBBD0C125E184A80093C881 /* ObjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectStore.swift; sourceTree = "<group>"; };
 		8FBBD0C525E18D4A0093C881 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		8FBBD05D25E137DC0093C881 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8FBBD09F25E15B8B0093C881 /* Strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -306,6 +308,14 @@
 			path = Controls;
 			sourceTree = "<group>";
 		};
+		8FBBD09F25E15B8B0093C881 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD0A525E15BA50093C881 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
 		8FBBD0C425E18D270093C881 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +389,7 @@
 				8FBBD08525E146120093C881 /* EmptyTabScreenTwoViewController.xib in Resources */,
 				8FBBD07E25E145FD0093C881 /* EmptyTabScreenOneViewController.xib in Resources */,
 				8FBBD08A25E146260093C881 /* EmptyTabScreenThreeViewController.xib in Resources */,
+				8FBBD0A325E15BA50093C881 /* Localizable.strings in Resources */,
 				8FBBD07025E13D3C0093C881 /* ShipmentDetailScreenViewController.xib in Resources */,
 				8FBBD06525E13AFE0093C881 /* ShipmentTabBar.storyboard in Resources */,
 				8FBBD08F25E1463E0093C881 /* EmptyTabScreenFourViewController.xib in Resources */,
