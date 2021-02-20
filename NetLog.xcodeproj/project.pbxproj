@@ -24,6 +24,7 @@
 		8FBBD08A25E146260093C881 /* EmptyTabScreenThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD08825E146260093C881 /* EmptyTabScreenThreeViewController.xib */; };
 		8FBBD08E25E1463E0093C881 /* EmptyTabScreenFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD08C25E1463E0093C881 /* EmptyTabScreenFourViewController.swift */; };
 		8FBBD08F25E1463E0093C881 /* EmptyTabScreenFourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD08D25E1463E0093C881 /* EmptyTabScreenFourViewController.xib */; };
+		8FBBD0C625E18D4A0093C881 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0C525E18D4A0093C881 /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		8FBBD08825E146260093C881 /* EmptyTabScreenThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenThreeViewController.xib; sourceTree = "<group>"; };
 		8FBBD08C25E1463E0093C881 /* EmptyTabScreenFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTabScreenFourViewController.swift; sourceTree = "<group>"; };
 		8FBBD08D25E1463E0093C881 /* EmptyTabScreenFourViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTabScreenFourViewController.xib; sourceTree = "<group>"; };
+		8FBBD0C525E18D4A0093C881 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		B30A518ABA8B027D9EF2C1D2 /* Pods-NetLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetLog.release.xcconfig"; path = "Target Support Files/Pods-NetLog/Pods-NetLog.release.xcconfig"; sourceTree = "<group>"; };
 		D79477EAAAF68D8A7DB83A5D /* Pods-NetLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetLog.debug.xcconfig"; path = "Target Support Files/Pods-NetLog/Pods-NetLog.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +135,7 @@
 		8FBBD05A25E137850093C881 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8FBBD0C425E18D270093C881 /* Extension */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -281,6 +284,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		8FBBD0C425E18D270093C881 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBD0C525E18D4A0093C881 /* UIViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -403,6 +414,7 @@
 			files = (
 				8FBBD06F25E13D3C0093C881 /* ShipmentDetailScreenViewController.swift in Sources */,
 				8FBBD06925E13C1E0093C881 /* ShipmentTabBarController.swift in Sources */,
+				8FBBD0C625E18D4A0093C881 /* UIViewControllerExtension.swift in Sources */,
 				8FBBD08425E146120093C881 /* EmptyTabScreenTwoViewController.swift in Sources */,
 				8FBBD04325E1354B0093C881 /* AppDelegate.swift in Sources */,
 				8FBBD04525E1354B0093C881 /* SceneDelegate.swift in Sources */,
