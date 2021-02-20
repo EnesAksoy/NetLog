@@ -6,5 +6,6 @@ target 'NetLog' do
   use_frameworks!
 
   # Pods for NetLog
+pod 'JVFloatLabeledTextField'
 
 end
