@@ -35,6 +35,7 @@
 		8FBBD0C225E184A80093C881 /* ObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0C125E184A80093C881 /* ObjectStore.swift */; };
 		8FBBD0C625E18D4A0093C881 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0C525E18D4A0093C881 /* UIViewControllerExtension.swift */; };
 		8FBBD0CA25E1921E0093C881 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0C925E1921E0093C881 /* UIViewExtension.swift */; };
+		8FBBD0D625E245170093C881 /* CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD0D525E245170093C881 /* CLLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		8FBBD0C125E184A80093C881 /* ObjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectStore.swift; sourceTree = "<group>"; };
 		8FBBD0C525E18D4A0093C881 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		8FBBD0C925E1921E0093C881 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		8FBBD0D525E245170093C881 /* CLLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocation.swift; sourceTree = "<group>"; };
 		B30A518ABA8B027D9EF2C1D2 /* Pods-NetLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetLog.release.xcconfig"; path = "Target Support Files/Pods-NetLog/Pods-NetLog.release.xcconfig"; sourceTree = "<group>"; };
 		D79477EAAAF68D8A7DB83A5D /* Pods-NetLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetLog.debug.xcconfig"; path = "Target Support Files/Pods-NetLog/Pods-NetLog.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -366,6 +368,7 @@
 			children = (
 				8FBBD0C525E18D4A0093C881 /* UIViewControllerExtension.swift */,
 				8FBBD0C925E1921E0093C881 /* UIViewExtension.swift */,
+				8FBBD0D525E245170093C881 /* CLLocation.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				8FBBD09A25E152990093C881 /* NetLogTextField.swift in Sources */,
 				8FBBD0BB25E16E040093C881 /* CameraScreenViewController.swift in Sources */,
 				8FBBD0C225E184A80093C881 /* ObjectStore.swift in Sources */,
+				8FBBD0D625E245170093C881 /* CLLocation.swift in Sources */,
 				8FBBD0AB25E15F610093C881 /* NetLogButton.swift in Sources */,
 				8FBBD07D25E145FD0093C881 /* EmptyTabScreenOneViewController.swift in Sources */,
 				8FBBD09D25E15B130093C881 /* NetLogLabel.swift in Sources */,
