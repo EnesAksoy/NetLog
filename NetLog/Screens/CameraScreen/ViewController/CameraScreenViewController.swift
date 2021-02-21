@@ -9,6 +9,13 @@
 import UIKit
 
 class CameraScreenViewController: UIViewController, UINavigationControllerDelegate  {
+    
+    // MARK: - Image Source Type
+    
+    enum ImageSource {
+        case photoLibrary
+        case camera
+    }
 
     // MARK: - Proporties
     var imagePicker: UIImagePickerController!
@@ -16,13 +23,6 @@ class CameraScreenViewController: UIViewController, UINavigationControllerDelega
     // MARK: - Outlets
     @IBOutlet weak var imageTake: UIImageView!
     @IBOutlet weak var imageDeleteButton: UIButton!
-    
-    
-    
-    enum ImageSource {
-        case photoLibrary
-        case camera
-    }
     
     // MARK: - Life Cycles
 
@@ -74,7 +74,7 @@ class CameraScreenViewController: UIViewController, UINavigationControllerDelega
     
     //MARK: - Take image
 
-    func selectImageFrom(_ source: ImageSource){
+    private func selectImageFrom(_ source: ImageSource){
         imagePicker =  UIImagePickerController()
         imagePicker.delegate = self
         switch source {

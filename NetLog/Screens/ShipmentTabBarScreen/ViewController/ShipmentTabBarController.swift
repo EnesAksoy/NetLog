@@ -34,8 +34,8 @@ class ShipmentTabBarController: UITabBarController {
         
         self.viewControllers = [emptyTabOneVC, shipmentDetailVC, emptyTabTwoVC, emptyTabThreeVC, emptyTabFourVC]
         
-        let shipmentDetailVCItem = UITabBarItem(title: "", image: UIImage(named: "upArrowIcon"), tag: 1)
         let emptyTabOneVCItem = UITabBarItem(title: "", image: UIImage(named: "infoIcon"), tag: 0)
+        let shipmentDetailVCItem = UITabBarItem(title: "", image: UIImage(named: "upArrowIcon"), tag: 1)
         let emptyTabTwoVCItem = UITabBarItem(title: "", image: UIImage(named: "postIcon"), tag: 2)
         let emptyTabThreeVCItem = UITabBarItem(title: "", image: UIImage(named: "downArrowIcon"), tag: 3)
         let emptyTabFourVCItem = UITabBarItem(title: "", image: UIImage(named: "calendarIcon"), tag: 4)
