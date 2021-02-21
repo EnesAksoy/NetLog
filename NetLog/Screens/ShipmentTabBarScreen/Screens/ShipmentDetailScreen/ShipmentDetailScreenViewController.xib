@@ -342,7 +342,7 @@
                                         <action selector="waybillButtonClick:" destination="-1" eventType="touchUpInside" id="L0X-a7-hg7"/>
                                     </connections>
                                 </button>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pk3-ZG-Bhw">
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locationsImage" translatesAutoresizingMaskIntoConstraints="NO" id="Pk3-ZG-Bhw">
                                     <rect key="frame" x="30" y="516.5" width="20" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="0LM-hI-rZp"/>
@@ -482,6 +482,7 @@
         </designable>
     </designables>
     <resources>
+        <image name="locationsImage" width="840" height="859"/>
         <image name="waybill" width="224" height="313.33334350585938"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

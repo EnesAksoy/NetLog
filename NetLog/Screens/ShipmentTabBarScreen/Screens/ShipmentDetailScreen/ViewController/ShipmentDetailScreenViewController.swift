@@ -12,6 +12,8 @@ import CoreLocation
 
 class ShipmentDetailScreenViewController: UIViewController {
     
+    // MARK: - Proporties
+    
     let locationManager = CLLocationManager()
     
     // MARK: - Outlets
@@ -25,13 +27,10 @@ class ShipmentDetailScreenViewController: UIViewController {
     
     // MARK: - Life Cycles
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+                
         self.mapView.showsUserLocation = true
-        
-        // For use in foreground
         self.locationManager.requestWhenInUseAuthorization()
         
         if CLLocationManager.locationServicesEnabled() {
@@ -48,8 +47,7 @@ class ShipmentDetailScreenViewController: UIViewController {
         if let coor = mapView.userLocation.location?.coordinate{
             mapView.setCenter(coor, animated: true)
         }
-        
-        
+        self.hideKeyboardWhenTappedAround()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -76,20 +74,9 @@ class ShipmentDetailScreenViewController: UIViewController {
         let vc = ZoomScreenViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
-    
-    func setNavigationTitle(titleOne: String, titleTwo: String) {
-        let titleLbl = UILabel()
-        let titleLblColor = UIColor.blue
-        
-        let attributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15), NSAttributedString.Key.foregroundColor: titleLblColor]
-        
-        titleLbl.attributedText = NSAttributedString(string: "My Title", attributes: attributes)
-            titleLbl.sizeToFit()
-        titleLbl.textColor = .black
-        self.navigationController!.navigationBar.titleTextAttributes = attributes
-//        self.navigationItem.titleView = titleLbl
-    }
 }
+
+// MARK: - CLLocationManagerDelegate and MKMapViewDelegate
 
 extension ShipmentDetailScreenViewController: CLLocationManagerDelegate, MKMapViewDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -105,30 +92,13 @@ extension ShipmentDetailScreenViewController: CLLocationManagerDelegate, MKMapVi
         annotation.coordinate = locValue
         mapView.addAnnotation(annotation)
 
-        //centerMap(locValue)
-        
-        
         let location = CLLocation(latitude: manager.location!.coordinate.latitude, longitude: manager.location!.coordinate.longitude)
         location.fetchCityAndCountry { city, country, subAdministrativeArea, streetName, error  in
             guard let city = city, let country = country, error == nil else { return }
             self.cityAndCountryLabel.text = "\(city)/\(country)"
             self.subAdministrativeLabel.text = subAdministrativeArea
             self.streetNameLabel.text = streetName
-            self.setNavigationTitle(titleOne: country, titleTwo: city)
-//            print(city + ", " + country)
         }
     }
 }
 
-
-extension CLLocation {
-    func fetchCityAndCountry(completion: @escaping (_ city: String?, _ country: String?, _ subAdministrativeArea: String?, _ streetName: String?,  _ error: Error?) -> ()) {
-        CLGeocoder().reverseGeocodeLocation(self) {
-            completion($0?.first?.administrativeArea,
-                       $0?.first?.country,
-                       $0?.first?.subAdministrativeArea,
-                       $0?.first?.name,
-                       $1)
-        }
-    }
-}
